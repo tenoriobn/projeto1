@@ -1,0 +1,145 @@
+.footer {
+    background-color: var(--cinza);
+}
+
+.logotipo__techtack {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+
+    padding-top: 1.5rem;
+}
+
+.nomelogo__footer {
+    font-size: 1.375rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    color: var(--branco);
+}
+
+.footer__info {
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 0.938rem;
+    color: var(--branco);
+
+    padding-top: 1.813rem;
+}
+
+.footer__endereco {
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 0.938rem;
+    color: var(--branco);
+
+    padding-top: 0.75rem;
+}
+
+.footer__icones {
+    display: flex;
+    align-items: center;
+    gap: 1.625rem;
+
+    margin-top: 1.625rem;
+    margin-bottom: 2.125rem;
+}
+
+.opcao__geral-footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.support__footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titulo__support {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+    color: var(--branco);
+
+    padding-bottom: 1.25rem;
+}
+
+.paragrafo__support {
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.125rem;
+    color: var(--branco);
+
+    padding-bottom: 0.688rem;
+}
+
+.footer__titulo_assinante {
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.094rem;
+    color: var(--branco);
+
+    margin-top: 1.625rem;
+}
+
+.footer__paragrafo__assinante {
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 0.938rem;
+    color: var(--branco);
+
+    margin-top: 1.063rem;
+}
+
+.input__email {
+    border: 1px solid var(--branco);
+
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.094rem;
+    color: #B8B8B8;
+
+    box-sizing: border-box;
+
+    width: 100%;
+
+    padding-top: 1rem;
+    padding-left: 0.813rem;
+    padding-bottom: 1rem;
+
+    background-color: transparent;
+
+    margin-top: 1.563rem;
+}
+
+.botao__footer {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 1.563rem;
+}
+
+.footer__botao {
+    border: none;
+    background-color: var(--azul);
+
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.094rem;
+    color: var(--branco);
+
+    padding: 0.563rem 1.25rem;
+}
+
+.copyright {
+    font-size: 0.625rem;
+    font-weight: 400;
+    text-align: center;
+    line-height: 0.75rem;
+    color: var(--branco);
+
+    padding-top: 2.563rem;
+    padding-bottom: 1.25rem;
+}

@@ -1,0 +1,22 @@
+:root {
+    --azul: #3A78F2;
+
+    --branco: #FFFFFF;
+    --branco-optico: #F9FDFF;
+    --branco-gelo: #F8F8F8;
+
+    --cinza: #1D2225;
+    --cinza-chumbo: #232425;
+    --cinza-claro: #7C7C7C;
+    --cinza-grafite: #282A2C;
+    --cinza-granizo: #303E49;
+
+    --preto: #000000;
+
+    
+    --fonte: 'Oxanium', cursive;
+    --fonte2: 'DM Sans', sans-serif;
+
+    --tamanho: 1rem;
+    --peso: 400;
+}

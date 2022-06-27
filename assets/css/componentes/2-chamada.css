@@ -1,0 +1,97 @@
+.chamada {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 2.125rem;
+}
+
+.chamada__titulo {
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 3.25rem;
+    letter-spacing: 0.016em;
+    color: var(--cinza-grafite);
+}
+
+.chamada_paragrafo {
+    font-size: 0.75rem;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.125rem;
+    letter-spacing: 0.016em;
+    color: var(--cinza-granizo);
+
+    padding-top: 2.125rem;
+}
+
+.chamada__banner {
+    width: 100%;
+
+    padding-top: 0.5rem;
+}
+
+.chamada__botao1 {
+    border: none;
+    border-radius: 0.625rem;
+    background-color: var(--azul);
+
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: left;
+    line-height: 1.25rem;
+    color: var(--branco-gelo);
+
+    padding-left: 23.5px;
+
+    width: 10.313rem;
+    height: 3rem;
+
+    margin-top: 0.831rem;
+}
+
+.seta__botao1 {
+    width: 0.463rem;
+}
+
+.chamada__botao2 {
+    border: 1px solid var(--azul);
+    border-radius: 0.625rem;
+    background-color: var(--branco);
+
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.25rem;
+    color: var(--azul);
+
+    width: 10.313rem;
+    height: 3rem;
+
+    margin-top: 1rem;
+}
+
+.chamada__patrocinadores {
+    display: flex;
+    align-items:center;
+    gap: 1.963rem;
+
+    padding-top: 1.704rem;
+}
+
+.uber {
+    width: 100%;
+}
+
+.slack {
+    width: 100%;
+}
+
+.microsoft {
+    width: 100%;
+}
+
+.icthub {
+    width: 100%;
+}

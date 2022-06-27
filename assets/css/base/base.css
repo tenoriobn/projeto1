@@ -1,0 +1,15 @@
+@import url(_variaveis.css);
+@import url(_reset.css);
+
+body {
+    font-family: var(--fonte);
+    font-size: var(--tamanho);
+    font-weight: var(--peso);
+
+    color: var(--cinza-claro);
+}
+
+.container {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}

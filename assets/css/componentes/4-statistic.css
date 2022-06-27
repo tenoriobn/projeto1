@@ -1,0 +1,143 @@
+.statistic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, #3A78F2 0, #3A78F2 21%, rgba(255, 255, 0, 0) 20%);
+
+    margin-top: 0.5rem;
+}
+
+.statistic__paragrafo {
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 1.688rem;
+    color: #F5F5F5;
+
+    padding-top: 1rem;
+}
+
+.statistic__titulo {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    color: var(--branco);
+
+    padding-top: 0.25rem;
+}
+
+.statistic__video {
+    max-width: 100%;
+    padding-top: 0.813rem;
+}
+
+.statistic__cartao {
+    margin-top: 2rem;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.625rem;
+}
+
+.statistic__cartao2 {
+    margin-top: 6.575rem;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.625rem;
+
+    margin-top: 1.5rem;
+}
+
+.statistic__titulo_cartao {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    color: var(--cinza);
+}
+
+.statistic__titulo_cartao {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    color: var(--cinza);
+}
+
+.statistic__paragrafo_cartao {
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 1.2rem;
+    letter-spacing: 0.016em;
+    color: var(--cinza-claro);
+
+    padding-top: 0.5rem;
+}
+
+.statistic__info {
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-between;
+
+    background-color: var(--azul);
+    margin-top: 2rem;
+}
+
+.statistic__info_cartao {
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 0.938rem;
+    padding-bottom: 0.375rem;
+}
+
+.numero__statistic {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.173rem;
+    text-align: center;
+
+    color: var(--branco);
+}
+
+.info_descricao {
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 0.875rem;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #DCDCDC;
+
+    padding-top: 0.563rem;
+}
+
+.info_descricao2 {
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 0.875rem;
+    letter-spacing: -0.02em;
+    text-align: center;
+
+    color: #DCDCDC;
+
+    padding-top: 0.563rem;
+}
+
+.item__icone-statistic{
+    position: relative;
+
+    top: 23px;
+
+    width: 3px;
+    height: 30px;
+
+    background-color: var(--amarelo);
+
+    background-size: 2px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item__icone--divisao {
+    background-image: url(../../img/icones/divisao.png);
+}
